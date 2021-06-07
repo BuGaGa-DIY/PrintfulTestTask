@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:background="@drawable/country_info_back">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CountryInfoTitle"
+        android:text="Country Name"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/CountryInfoFlag"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total cases:"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CountryInfoCasesLabel"
+        android:textColor="#CACACA"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total deaths:"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CountryInfoDeathsLabel"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recovered:"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CountryInfoRecoveredLabel"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Active cases:"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CountryInfoActiveLabel"
+                android:text="cases"
+                android:textSize="30dp"
+                android:textColor="#EF8F3A"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Closed cases:"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CountryInfoClosedLabel"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="cases"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

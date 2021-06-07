@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PrintfulTestTask</string>
+    <string name="main_info_text">This is simple application witch loads covid-19 statistics data to the ListView. Data takes from https://api.covid19api.com/. By swiping down on the top of the list you can refresh list content. You can tap on the List item and app shows you more details about selected country. In the UI bottom you cen see last data synchronization time. </string>
 </resources>
